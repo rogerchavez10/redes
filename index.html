@@ -17,12 +17,7 @@
             color: #fff;
             padding: 20px;
             text-align: center;
-            color: white;
         }
-        header h1 {
-            color: white;
-}
-            
         section {
             padding: 20px;
             margin: 15px;
@@ -64,7 +59,7 @@
     <h2>Historia de las Redes Informáticas</h2>
     <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Historia de redes">
     <p>
-        La historia de las redes informáticas comenzó en los años 50 con sistemas centralizados, evolucionando drásticamente en 1969 con ARPANET, la primera red de conmutación de paquetes. Financiada por el Departamento de Defensa de EE. UU., esta red sentó las bases de la comunicación digital, dando lugar al protocolo TCP/IP en 1983, lo que finalmente consolidó Internet tal como lo conocemos hoy.
+        La historia de las redes informáticas comenzó en los años 50 con sistemas centralizados, evolucionando en 1969 con ARPANET. En 1983 se adoptó TCP/IP, base del Internet actual.
     </p>
 </section>
 
@@ -72,19 +67,18 @@
     <h2>Definición de las Redes</h2>
     <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Conexión de computadoras">
     <p>
-        Una red de computadoras es un conjunto de dispositivos interconectados que comparten recursos, intercambian datos y permiten la comunicación.
+        Una red de computadoras es un conjunto de dispositivos interconectados que comparten recursos y permiten la comunicación.
     </p>
 </section>
 
 <section>
     <h2>Dispositivos de Interconexión</h2>
     <ul>
-        <li><strong>Hub:</strong> Envía la información a todos los dispositivos.</li>
-        <li><strong>Switch:</strong> Envía datos solo al dispositivo correcto.</li>
-        <li><strong>Enrutador (Router):</strong> Conecta diferentes redes.</li>
-        <li><strong>Bridge:</strong> Divide la red en segmentos.</li>
-        <li><strong>Repetidores:</strong> Amplían la señal.</li>
-        <li><strong>Transceptores:</strong> Permiten enviar y recibir señales.</li>
+        <li><strong>Hub:</strong> Envía la información a todos.</li>
+        <li><strong>Switch:</strong> Envía datos al destino correcto.</li>
+        <li><strong>Router:</strong> Conecta redes.</li>
+        <li><strong>Bridge:</strong> Segmenta la red.</li>
+        <li><strong>Repetidor:</strong> Amplía señal.</li>
     </ul>
 </section>
 
@@ -104,47 +98,72 @@
 <section>
     <h2>Tipos de Redes</h2>
     <ul>
-        <li><strong>PAN:</strong> Personal</li>
-        <li><strong>LAN:</strong> Local</li>
-        <li><strong>MAN:</strong> Metropolitana</li>
-        <li><strong>WAN:</strong> Amplia</li>
+        <li>PAN</li>
+        <li>LAN</li>
+        <li>MAN</li>
+        <li>WAN</li>
     </ul>
 </section>
 
 <section>
     <h2>Topologías de Red</h2>
     <ul>
-        <li><strong>BUS</strong></li>
-        <li><strong>P2P</strong></li>
-        <li><strong>Estrella</strong></li>
-        <li><strong>Anillo</strong></li>
-        <li><strong>Malla</strong></li>
-        <li><strong>Árbol</strong></li>
-        <li><strong>Mixta</strong></li>
+        <li>BUS</li>
+        <li>Estrella</li>
+        <li>Anillo</li>
+        <li>Malla</li>
     </ul>
 </section>
 
 <section>
     <h2>Medios de Conexión</h2>
-
-    <h3>Guiados (Alámbricos)</h3>
     <ul>
-        <li><strong>Cable Coaxial:</strong> Utilizado en televisión y redes antiguas.</li>
-        <li><strong>UTP:</strong> Cable de par trenzado sin blindaje, muy común en redes LAN.</li>
-        <li><strong>STP:</strong> Similar al UTP pero con blindaje para evitar interferencias.</li>
-        <li><strong>Fibra Óptica:</strong> Transmite datos mediante luz, alta velocidad y gran distancia.</li>
+        <li>UTP</li>
+        <li>Fibra óptica</li>
+        <li>WiFi</li>
+        <li>Bluetooth</li>
     </ul>
-
-    <h3>No Guiados (Inalámbricos)</h3>
-    <ul>
-        <li><strong>Infrarrojo:</strong> Comunicación a corta distancia.</li>
-        <li><strong>WiFi:</strong> Conexión inalámbrica a redes locales.</li>
-        <li><strong>Satelital:</strong> Comunicación a larga distancia mediante satélites.</li>
-        <li><strong>Microondas:</strong> Transmisión de datos por ondas electromagnéticas.</li>
-        <li><strong>Bluetooth:</strong> Comunicación inalámbrica de corto alcance.</li>
-    </ul>
-
     <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31" alt="Medios de conexión">
+</section>
+
+<!-- NUEVA SECCIÓN -->
+<section>
+    <h2>Cables de Red: Directo y Cruzado</h2>
+
+    <h3>¿Qué es un cable directo?</h3>
+    <p>
+        Es un cable donde ambos extremos tienen el mismo orden de colores (T568A o T568B). 
+        Se usa para conectar dispositivos diferentes como computadora a switch o router.
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/RJ45_T568B.svg" alt="Cable directo T568B">
+
+    <h3>¿Qué es un cable cruzado?</h3>
+    <p>
+        Es un cable donde un extremo usa T568A y el otro T568B. 
+        Se utiliza para conectar dispositivos iguales como computadora a computadora.
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Ethernet_Crossover_Cable.png" alt="Cable cruzado">
+
+    <h3>Materiales necesarios</h3>
+    <ul>
+        <li>Cable UTP</li>
+        <li>Conectores RJ45</li>
+        <li>Crimpadora</li>
+        <li>Pelacables</li>
+    </ul>
+
+    <h3>Pasos para hacer un cable</h3>
+    <ol>
+        <li>Pelar el cable (2-3 cm).</li>
+        <li>Ordenar los cables por color.</li>
+        <li>Insertarlos en el conector RJ45.</li>
+        <li>Crimpar con la herramienta.</li>
+        <li>Probar el cable.</li>
+    </ol>
+
+    <h3>Orden de colores</h3>
+    <p><strong>T568B:</strong> Blanco/Naranja, Naranja, Blanco/Verde, Azul, Blanco/Azul, Verde, Blanco/Marrón, Marrón</p>
+    <p><strong>T568A:</strong> Blanco/Verde, Verde, Blanco/Naranja, Azul, Blanco/Azul, Naranja, Blanco/Marrón, Marrón</p>
 </section>
 
 <footer>
